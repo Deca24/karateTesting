@@ -38,8 +38,8 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
       <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
     </a>
     <div class="nav-count">
-      <div id="nav-pass" class="bg-success">0</div>
-      <div id="nav-fail" class="bg-danger">2</div>
+      <div id="nav-pass" class="bg-success">2</div>
+      <div id="nav-fail" class="bg-danger">0</div>
     </div>
   </div>
   <div id="nav-env">
@@ -49,15 +49,15 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
     <div>Scenarios</div>
   </div>
   <div id="nav-date">
-    <div>2025-06-19 09:16:14 p. m.</div>
+    <div>2025-06-20 06:54:26 a. m.</div>
   </div>
 </div>
 
         <div class="nav-container">
-          <div class="nav-item failed">
+          <div class="nav-item passed">
             <a href="#[1:6]"><span>[1:6]</span> <span>Search a pet</span></a>
           </div>
-          <div class="nav-item failed">
+          <div class="nav-item passed">
             <a href="#[2:41]"><span>[2:41]</span> <span>Validate response structure</span></a>
           </div>
         </div>
@@ -83,8 +83,8 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
                 <span></span>
               </div>
             </div>
-            <div class="scenario-time failed">
-              <span>ms:</span>&nbsp;<span>2232</span>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>2195</span>
             </div>
           </div>
           <div class="step-row">
@@ -107,7 +107,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>url &#39;https://petstore.swagger.io/&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">2</div>
+    <div class="time-cell passed">3</div>
   </div>
 
    
@@ -116,7 +116,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.4">21:16:11.435 karate.env system property was: null 
+  <div class="preformatted" data-parent="0.4">06:54:24.103 karate.env system property was: null 
 </div>   
 
   
@@ -136,7 +136,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>def add_a_pet_request =</span>
       </div>
     </div>
-    <div class="time-cell passed">113</div>
+    <div class="time-cell passed">99</div>
   </div>
 
    
@@ -209,7 +209,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>And</span>&nbsp;<span>request add_a_pet_request</span>
       </div>
     </div>
-    <div class="time-cell passed">20</div>
+    <div class="time-cell passed">12</div>
   </div>
 
    
@@ -237,7 +237,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>When</span>&nbsp;<span>method post</span>
       </div>
     </div>
-    <div class="time-cell passed">1703</div>
+    <div class="time-cell passed">1668</div>
   </div>
 
    
@@ -246,7 +246,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.30">21:16:12.277 request:
+  <div class="preformatted" data-parent="0.30">06:54:24.856 request:
 1 &gt; POST https://petstore.swagger.io/v2/pet
 1 &gt; Content-Type: application/json; charset=UTF-8
 1 &gt; Content-Length: 138
@@ -256,9 +256,9 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 1 &gt; Accept-Encoding: gzip,deflate
 {&quot;id&quot;:0,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;},&quot;name&quot;:&quot;doggie&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;available&quot;}
 
-21:16:13.338 response time in milliseconds: 1051
+06:54:25.958 response time in milliseconds: 1093
 1 &lt; 200
-1 &lt; Date: Fri, 20 Jun 2025 02:16:13 GMT
+1 &lt; Date: Fri, 20 Jun 2025 11:54:27 GMT
 1 &lt; Content-Type: application/json
 1 &lt; Transfer-Encoding: chunked
 1 &lt; Connection: keep-alive
@@ -266,7 +266,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 1 &lt; Access-Control-Allow-Methods: GET, POST, DELETE, PUT
 1 &lt; Access-Control-Allow-Headers: Content-Type, api_key, Authorization
 1 &lt; Server: Jetty(9.2.9.v20150224)
-{&quot;id&quot;:9222968140497181441,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;},&quot;name&quot;:&quot;doggie&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;available&quot;}
+{&quot;id&quot;:9223372036854745521,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;},&quot;name&quot;:&quot;doggie&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;available&quot;}
 
 </div>   
 
@@ -287,7 +287,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>Then</span>&nbsp;<span>status 200</span>
       </div>
     </div>
-    <div class="time-cell passed">10</div>
+    <div class="time-cell passed">9</div>
   </div>
 
    
@@ -343,7 +343,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>print &#39;pet id:&#39;, petId</span>
       </div>
     </div>
-    <div class="time-cell passed">6</div>
+    <div class="time-cell passed">5</div>
   </div>
 
    
@@ -352,7 +352,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.34">21:16:13.368 [print] pet id: 9222968140497181441 
+  <div class="preformatted" data-parent="0.34">06:54:25.986 [print] pet id: 9223372036854745521 
 </div>   
 
   
@@ -372,7 +372,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>Given</span>&nbsp;<span>path &#39;v2/pet&#39;, petId</span>
       </div>
     </div>
-    <div class="time-cell passed">30</div>
+    <div class="time-cell passed">27</div>
   </div>
 
    
@@ -400,7 +400,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>When</span>&nbsp;<span>method get</span>
       </div>
     </div>
-    <div class="time-cell passed">336</div>
+    <div class="time-cell passed">324</div>
   </div>
 
    
@@ -409,17 +409,17 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.37">21:16:13.404 request:
-2 &gt; GET https://petstore.swagger.io/v2/pet/9222968140497181441
+  <div class="preformatted" data-parent="0.37">06:54:26.019 request:
+2 &gt; GET https://petstore.swagger.io/v2/pet/9223372036854745521
 2 &gt; Host: petstore.swagger.io
 2 &gt; Connection: Keep-Alive
 2 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/24.0.1)
 2 &gt; Accept-Encoding: gzip,deflate
 
 
-21:16:13.732 response time in milliseconds: 327
-2 &lt; 404
-2 &lt; Date: Fri, 20 Jun 2025 02:16:13 GMT
+06:54:26.335 response time in milliseconds: 312
+2 &lt; 200
+2 &lt; Date: Fri, 20 Jun 2025 11:54:28 GMT
 2 &lt; Content-Type: application/json
 2 &lt; Transfer-Encoding: chunked
 2 &lt; Connection: keep-alive
@@ -427,7 +427,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 2 &lt; Access-Control-Allow-Methods: GET, POST, DELETE, PUT
 2 &lt; Access-Control-Allow-Headers: Content-Type, api_key, Authorization
 2 &lt; Server: Jetty(9.2.9.v20150224)
-{&quot;code&quot;:1,&quot;type&quot;:&quot;error&quot;,&quot;message&quot;:&quot;Pet not found&quot;}
+{&quot;id&quot;:9223372036854745521,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;},&quot;name&quot;:&quot;doggie&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;available&quot;}
 
 </div>   
 
@@ -442,13 +442,13 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   <div class="step-row">
     <div class="step-container" id="0.38">
-      <div class="step-ref failed">38</div>
+      <div class="step-ref passed">38</div>
       
-      <div class="step-cell failed">
+      <div class="step-cell passed">
         <span>Then</span>&nbsp;<span>status 200</span>
       </div>
     </div>
-    <div class="time-cell failed">4</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
@@ -457,12 +457,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.38">21:16:13.742 classpath:examples/petsTest/searchPets.feature:38
-Then status 200
-status code was: 404, expected: 200, response time in milliseconds: 327, url: https://petstore.swagger.io/v2/pet/9222968140497181441, response: 
-{&quot;code&quot;:1,&quot;type&quot;:&quot;error&quot;,&quot;message&quot;:&quot;Pet not found&quot;}
-classpath:examples/petsTest/searchPets.feature:38
-</div>   
+     
 
   
 
@@ -475,13 +470,13 @@ classpath:examples/petsTest/searchPets.feature:38
 
   <div class="step-row">
     <div class="step-container" id="0.39">
-      <div class="step-ref skipped">39</div>
+      <div class="step-ref passed">39</div>
       
-      <div class="step-cell skipped">
+      <div class="step-cell passed">
         <span>And</span>&nbsp;<span>match response.id == petId</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">38</div>
   </div>
 
    
@@ -509,8 +504,8 @@ classpath:examples/petsTest/searchPets.feature:38
                 <span></span>
               </div>
             </div>
-            <div class="scenario-time failed">
-              <span>ms:</span>&nbsp;<span>362</span>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>329</span>
             </div>
           </div>
           <div class="step-row">
@@ -542,7 +537,7 @@ classpath:examples/petsTest/searchPets.feature:38
 
   
 
-  <div class="preformatted" data-parent="0.4">21:16:13.805 karate.env system property was: null 
+  <div class="preformatted" data-parent="0.4">06:54:26.423 karate.env system property was: null 
 </div>   
 
   
@@ -663,7 +658,7 @@ classpath:examples/petsTest/searchPets.feature:38
         <span>When</span>&nbsp;<span>method post</span>
       </div>
     </div>
-    <div class="time-cell passed">333</div>
+    <div class="time-cell passed">322</div>
   </div>
 
    
@@ -672,7 +667,7 @@ classpath:examples/petsTest/searchPets.feature:38
 
   
 
-  <div class="preformatted" data-parent="0.65">21:16:13.814 request:
+  <div class="preformatted" data-parent="0.65">06:54:26.433 request:
 1 &gt; POST https://petstore.swagger.io/v2/pet
 1 &gt; Content-Type: application/json; charset=UTF-8
 1 &gt; Content-Length: 138
@@ -682,9 +677,9 @@ classpath:examples/petsTest/searchPets.feature:38
 1 &gt; Accept-Encoding: gzip,deflate
 {&quot;id&quot;:0,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;},&quot;name&quot;:&quot;doggie&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;available&quot;}
 
-21:16:14.142 response time in milliseconds: 326
+06:54:26.747 response time in milliseconds: 311
 1 &lt; 200
-1 &lt; Date: Fri, 20 Jun 2025 02:16:14 GMT
+1 &lt; Date: Fri, 20 Jun 2025 11:54:28 GMT
 1 &lt; Content-Type: application/json
 1 &lt; Transfer-Encoding: chunked
 1 &lt; Connection: keep-alive
@@ -692,7 +687,7 @@ classpath:examples/petsTest/searchPets.feature:38
 1 &lt; Access-Control-Allow-Methods: GET, POST, DELETE, PUT
 1 &lt; Access-Control-Allow-Headers: Content-Type, api_key, Authorization
 1 &lt; Server: Jetty(9.2.9.v20150224)
-{&quot;id&quot;:9222968140497181442,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;},&quot;name&quot;:&quot;doggie&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;available&quot;}
+{&quot;id&quot;:9223372036854745539,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;},&quot;name&quot;:&quot;doggie&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;available&quot;}
 
 </div>   
 
@@ -735,30 +730,30 @@ classpath:examples/petsTest/searchPets.feature:38
 
   <div class="step-row">
     <div class="step-container" id="0.67">
-      <div class="step-ref failed">67</div>
+      <div class="step-ref passed">67</div>
       
-      <div class="step-cell failed">
+      <div class="step-cell passed">
         <span>And</span>&nbsp;<span>match response ==</span>
       </div>
     </div>
-    <div class="time-cell failed">26</div>
+    <div class="time-cell passed">4</div>
   </div>
 
    
   
   <div class="preformatted" data-parent="0.67">{
-  &quot;id&quot;: 0,
+  &quot;id&quot;: #number,
   &quot;category&quot;: {
     &quot;id&quot;: 0,
     &quot;name&quot;: &quot;string&quot;
   },
-  &quot;name&quot;: &quot;doggie&quot;,
+  &quot;name&quot;: #string,
   &quot;photoUrls&quot;: [
     &quot;string&quot;
   ],
   &quot;tags&quot;: [
     {
-      &quot;id&quot;: 0,
+      &quot;id&quot;: #number,
       &quot;name&quot;: &quot;string&quot;
     }
   ],
@@ -767,39 +762,7 @@ classpath:examples/petsTest/searchPets.feature:38
 
   
 
-  <div class="preformatted" data-parent="0.67">21:16:14.173 classpath:examples/petsTest/searchPets.feature:67
-And match response ==
-&quot;&quot;&quot;
-{
-  &quot;id&quot;: 0,
-  &quot;category&quot;: {
-    &quot;id&quot;: 0,
-    &quot;name&quot;: &quot;string&quot;
-  },
-  &quot;name&quot;: &quot;doggie&quot;,
-  &quot;photoUrls&quot;: [
-    &quot;string&quot;
-  ],
-  &quot;tags&quot;: [
-    {
-      &quot;id&quot;: 0,
-      &quot;name&quot;: &quot;string&quot;
-    }
-  ],
-  &quot;status&quot;: &quot;available&quot;
-}
-&quot;&quot;&quot;
-match failed: EQUALS
-  $ | not equal | match failed for name: &#39;id&#39; (MAP:MAP)
-  {&quot;id&quot;:9222968140497181442,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;},&quot;name&quot;:&quot;doggie&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;available&quot;}
-  {&quot;id&quot;:0,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;},&quot;name&quot;:&quot;doggie&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;available&quot;}
-
-    $.id | not equal (NUMBER:NUMBER)
-    9222968140497181442
-    0
-
-classpath:examples/petsTest/searchPets.feature:67
-</div>   
+     
 
   
 

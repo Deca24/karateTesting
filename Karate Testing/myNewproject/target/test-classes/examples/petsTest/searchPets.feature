@@ -67,18 +67,18 @@ Feature: Search Pets
     And match response ==
     """
     {
-      "id": 0,
+      "id": #number,
       "category": {
         "id": 0,
         "name": "string"
       },
-      "name": "doggie",
+      "name": #string,
       "photoUrls": [
         "string"
       ],
       "tags": [
         {
-          "id": 0,
+          "id": #number,
           "name": "string"
         }
       ],
