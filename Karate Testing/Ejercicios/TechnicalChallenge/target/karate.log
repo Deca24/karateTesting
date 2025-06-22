@@ -2637,3 +2637,404 @@ classpath:reto4/getTenElements.feature:12
   }
 ]
 
+15:19:24.432 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:19:26.147 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:19:26.236 [main] ERROR com.intuit.karate - classpath:reto5/putNewTitle.feature:10
+When methos GET
+no step-definition method match found for: methos GET
+classpath:reto5/putNewTitle.feature:10
+15:19:48.839 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:19:50.524 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:19:50.617 [main] ERROR com.intuit.karate - classpath:reto5/putNewTitle.feature:10
+When methos GET
+no step-definition method match found for: methos GET
+classpath:reto5/putNewTitle.feature:10
+15:20:22.618 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:20:24.269 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:20:24.692 [main] DEBUG com.intuit.karate - request:
+1 > GET https://jsonplaceholder.typicode.com/posts/1
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/24.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:20:25.451 [main] DEBUG com.intuit.karate - response time in milliseconds: 754
+1 < 200
+1 < Date: Sun, 22 Jun 2025 20:20:27 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1746486735&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=0u20fdCQGWwaRRB8jT8bFPOUxw7LrQtQ5orHWnjP7b4%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1746486735&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=0u20fdCQGWwaRRB8jT8bFPOUxw7LrQtQ5orHWnjP7b4%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1746486788
+1 < Vary: Origin, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: max-age=43200
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU"
+1 < Via: 1.1 vegur
+1 < Age: 13632
+1 < Cf-Cache-Status: HIT
+1 < Server: cloudflare
+1 < Cf-Ray: 953e72490df84c0c-MIA
+1 < alt-svc: h3=":443"; ma=86400
+1 < server-timing: cfL4;desc="?proto=TCP&rtt=133209&min_rtt=72896&rtt_var=67377&sent=7&recv=7&lost=0&retrans=0&sent_bytes=3117&recv_bytes=755&delivery_rate=46758&cwnd=248&unsent_bytes=0&cid=163f2c67d8d2dc85&ts=253&x=0"
+{
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+
+15:20:25.618 [main] DEBUG com.intuit.karate - request:
+2 > PUT https://jsonplaceholder.typicode.com/post/1
+2 > Content-Type: application/json; charset=UTF-8
+2 > Content-Length: 24
+2 > Host: jsonplaceholder.typicode.com
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.14 (Java/24.0.1)
+2 > Accept-Encoding: gzip,deflate
+{"title":"nuevo titulo"}
+
+15:20:26.063 [main] DEBUG com.intuit.karate - response time in milliseconds: 443
+2 < 404
+2 < Date: Sun, 22 Jun 2025 20:20:28 GMT
+2 < Content-Type: application/json; charset=utf-8
+2 < Content-Length: 2
+2 < Connection: keep-alive
+2 < Cf-Ray: 953e724c5ca188f6-MIA
+2 < Access-Control-Allow-Credentials: true
+2 < Cache-Control: no-cache
+2 < Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+2 < Expires: -1
+2 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+2 < Pragma: no-cache
+2 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=RInQAoiFSYUR7iuqWc9g76g45Nb1WbwvWGMWHYj88rQ%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1750623628"}],"max_age":3600}
+2 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=RInQAoiFSYUR7iuqWc9g76g45Nb1WbwvWGMWHYj88rQ%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1750623628"
+2 < Vary: Origin, Accept-Encoding
+2 < Via: 2.0 heroku-router
+2 < X-Content-Type-Options: nosniff
+2 < X-Powered-By: Express
+2 < X-Ratelimit-Limit: 1000
+2 < X-Ratelimit-Remaining: 999
+2 < X-Ratelimit-Reset: 1750623686
+2 < Cf-Cache-Status: DYNAMIC
+2 < Server: cloudflare
+2 < alt-svc: h3=":443"; ma=86400
+2 < server-timing: cfL4;desc="?proto=TCP&rtt=133807&min_rtt=97729&rtt_var=62419&sent=4&recv=6&lost=0&retrans=0&sent_bytes=219&recv_bytes=1100&delivery_rate=14734&cwnd=250&unsent_bytes=0&cid=6687be7e24642861&ts=198&x=0"
+{}
+
+15:20:26.068 [main] ERROR com.intuit.karate - classpath:reto5/putNewTitle.feature:24
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 443, url: https://jsonplaceholder.typicode.com/post/1, response: 
+{}
+classpath:reto5/putNewTitle.feature:24
+15:22:24.849 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:22:26.520 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:22:26.933 [main] DEBUG com.intuit.karate - request:
+1 > GET https://jsonplaceholder.typicode.com/posts/1
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/24.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:22:27.591 [main] DEBUG com.intuit.karate - response time in milliseconds: 653
+1 < 200
+1 < Date: Sun, 22 Jun 2025 20:22:29 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Server: cloudflare
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1746486735&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=0u20fdCQGWwaRRB8jT8bFPOUxw7LrQtQ5orHWnjP7b4%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1746486735&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=0u20fdCQGWwaRRB8jT8bFPOUxw7LrQtQ5orHWnjP7b4%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < Server-Timing: cfCacheStatus;desc="HIT"
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1746486788
+1 < Vary: Origin, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: max-age=43200
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU"
+1 < Via: 1.1 vegur
+1 < Age: 13754
+1 < Cf-Cache-Status: HIT
+1 < CF-RAY: 953e75445ab8a56f-MIA
+1 < alt-svc: h3=":443"; ma=86400
+{
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+
+15:22:27.741 [main] DEBUG com.intuit.karate - request:
+2 > PUT https://jsonplaceholder.typicode.com/post/1
+2 > Content-Type: application/json; charset=UTF-8
+2 > Content-Length: 213
+2 > Host: jsonplaceholder.typicode.com
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.14 (Java/24.0.1)
+2 > Accept-Encoding: gzip,deflate
+{"userId":1,"id":1,"title":"nuevo titulo","body":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"}
+
+15:22:28.174 [main] DEBUG com.intuit.karate - response time in milliseconds: 433
+2 < 404
+2 < Date: Sun, 22 Jun 2025 20:22:30 GMT
+2 < Content-Type: application/json; charset=utf-8
+2 < Transfer-Encoding: chunked
+2 < Connection: keep-alive
+2 < Access-Control-Allow-Credentials: true
+2 < Cache-Control: no-cache
+2 < Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+2 < Expires: -1
+2 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+2 < Pragma: no-cache
+2 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=uTOAhXnA1Hwvq1a7WYPzxbzLmmFJxC1uGfY%2FQ9wyIVI%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1750623750"}],"max_age":3600}
+2 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=uTOAhXnA1Hwvq1a7WYPzxbzLmmFJxC1uGfY%2FQ9wyIVI%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1750623750"
+2 < Server: cloudflare
+2 < Vary: Origin, Accept-Encoding
+2 < Via: 2.0 heroku-router
+2 < X-Content-Type-Options: nosniff
+2 < X-Powered-By: Express
+2 < X-Ratelimit-Limit: 1000
+2 < X-Ratelimit-Remaining: 999
+2 < X-Ratelimit-Reset: 1750623806
+2 < Cf-Cache-Status: DYNAMIC
+2 < Server-Timing: cfCacheStatus;desc="DYNAMIC"
+2 < CF-RAY: 953e754708987483-MIA
+2 < alt-svc: h3=":443"; ma=86400
+{}
+
+15:22:28.184 [main] ERROR com.intuit.karate - classpath:reto5/putNewTitle.feature:27
+Then status 201
+status code was: 404, expected: 201, response time in milliseconds: 433, url: https://jsonplaceholder.typicode.com/post/1, response: 
+{}
+classpath:reto5/putNewTitle.feature:27
+15:26:38.346 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:26:40.059 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:26:40.509 [main] DEBUG com.intuit.karate - request:
+1 > GET https://jsonplaceholder.typicode.com/posts/1
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/24.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:26:41.271 [main] DEBUG com.intuit.karate - response time in milliseconds: 756
+1 < 200
+1 < Date: Sun, 22 Jun 2025 20:26:43 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Server: cloudflare
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1746486735&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=0u20fdCQGWwaRRB8jT8bFPOUxw7LrQtQ5orHWnjP7b4%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1746486735&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=0u20fdCQGWwaRRB8jT8bFPOUxw7LrQtQ5orHWnjP7b4%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < Server-Timing: cfCacheStatus;desc="HIT"
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1746486788
+1 < Vary: Origin, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: max-age=43200
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU"
+1 < Via: 1.1 vegur
+1 < Age: 14008
+1 < Cf-Cache-Status: HIT
+1 < CF-RAY: 953e7b75ee273352-MIA
+1 < alt-svc: h3=":443"; ma=86400
+{
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+
+15:26:41.420 [main] DEBUG com.intuit.karate - request:
+2 > PUT https://jsonplaceholder.typicode.com/posts/1
+2 > Content-Type: application/json; charset=UTF-8
+2 > Content-Length: 213
+2 > Host: jsonplaceholder.typicode.com
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.14 (Java/24.0.1)
+2 > Accept-Encoding: gzip,deflate
+{"userId":1,"id":1,"title":"nuevo titulo","body":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"}
+
+15:26:41.874 [main] DEBUG com.intuit.karate - response time in milliseconds: 451
+2 < 200
+2 < Date: Sun, 22 Jun 2025 20:26:44 GMT
+2 < Content-Type: application/json; charset=utf-8
+2 < Transfer-Encoding: chunked
+2 < Connection: keep-alive
+2 < Access-Control-Allow-Credentials: true
+2 < Cache-Control: no-cache
+2 < Etag: W/"e6-exRtpKB0Li+/kEQ0NXSGjtn5jTE"
+2 < Expires: -1
+2 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+2 < Pragma: no-cache
+2 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=Zk%2BrRpV1GAD4O9FZ2DK39FZWWLnDctg1vp4dT13R2fg%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1750624004"}],"max_age":3600}
+2 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=Zk%2BrRpV1GAD4O9FZ2DK39FZWWLnDctg1vp4dT13R2fg%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1750624004"
+2 < Vary: Origin, Accept-Encoding
+2 < Via: 2.0 heroku-router
+2 < X-Content-Type-Options: nosniff
+2 < X-Powered-By: Express
+2 < X-Ratelimit-Limit: 1000
+2 < X-Ratelimit-Remaining: 999
+2 < X-Ratelimit-Reset: 1750624046
+2 < Cf-Cache-Status: DYNAMIC
+2 < Server: cloudflare
+2 < Cf-Ray: 953e7b790c94257a-MIA
+2 < alt-svc: h3=":443"; ma=86400
+2 < server-timing: cfL4;desc="?proto=TCP&rtt=108388&min_rtt=107004&rtt_var=42894&sent=3&recv=6&lost=0&retrans=0&sent_bytes=219&recv_bytes=1291&delivery_rate=12195&cwnd=250&unsent_bytes=0&cid=ac29d6f29d1f8372&ts=224&x=0"
+{
+  "userId": 1,
+  "id": 1,
+  "title": "nuevo titulo",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+
+15:26:41.880 [main] DEBUG com.intuit.karate - request:
+3 > POST https://jsonplaceholder.typicode.com/posts/1
+3 > Host: jsonplaceholder.typicode.com
+3 > Connection: Keep-Alive
+3 > User-Agent: Apache-HttpClient/4.5.14 (Java/24.0.1)
+3 > Accept-Encoding: gzip,deflate
+
+
+15:26:42.282 [main] DEBUG com.intuit.karate - response time in milliseconds: 400
+3 < 404
+3 < Date: Sun, 22 Jun 2025 20:26:44 GMT
+3 < Content-Type: application/json; charset=utf-8
+3 < Content-Length: 2
+3 < Connection: keep-alive
+3 < Cf-Ray: 953e7b7c18bcc8e0-MIA
+3 < Access-Control-Allow-Credentials: true
+3 < Cache-Control: no-cache
+3 < Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+3 < Expires: -1
+3 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+3 < Pragma: no-cache
+3 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=Zk%2BrRpV1GAD4O9FZ2DK39FZWWLnDctg1vp4dT13R2fg%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1750624004"}],"max_age":3600}
+3 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=Zk%2BrRpV1GAD4O9FZ2DK39FZWWLnDctg1vp4dT13R2fg%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1750624004"
+3 < Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+3 < Via: 2.0 heroku-router
+3 < X-Content-Type-Options: nosniff
+3 < X-Powered-By: Express
+3 < X-Ratelimit-Limit: 1000
+3 < X-Ratelimit-Remaining: 998
+3 < X-Ratelimit-Reset: 1750624046
+3 < Cf-Cache-Status: DYNAMIC
+3 < Server: cloudflare
+3 < alt-svc: h3=":443"; ma=86400
+3 < server-timing: cfL4;desc="?proto=TCP&rtt=80096&min_rtt=64874&rtt_var=54773&sent=3&recv=6&lost=0&retrans=0&sent_bytes=219&recv_bytes=1011&delivery_rate=7714&cwnd=250&unsent_bytes=0&cid=0c6ab9af98411754&ts=229&x=0"
+{}
+
+15:26:42.288 [main] ERROR com.intuit.karate - classpath:reto5/putNewTitle.feature:31
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 400, url: https://jsonplaceholder.typicode.com/posts/1, response: 
+{}
+classpath:reto5/putNewTitle.feature:31
+15:29:30.169 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:29:31.878 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:29:32.298 [main] DEBUG com.intuit.karate - request:
+1 > GET https://jsonplaceholder.typicode.com/posts/1
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/24.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:29:32.879 [main] DEBUG com.intuit.karate - response time in milliseconds: 575
+1 < 200
+1 < Date: Sun, 22 Jun 2025 20:29:35 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Server: cloudflare
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1746486735&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=0u20fdCQGWwaRRB8jT8bFPOUxw7LrQtQ5orHWnjP7b4%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1746486735&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=0u20fdCQGWwaRRB8jT8bFPOUxw7LrQtQ5orHWnjP7b4%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < Server-Timing: cfCacheStatus;desc="HIT"
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1746486788
+1 < Vary: Origin, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: max-age=43200
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU"
+1 < Via: 1.1 vegur
+1 < Age: 14180
+1 < Cf-Cache-Status: HIT
+1 < CF-RAY: 953e7fa67921a522-MIA
+1 < alt-svc: h3=":443"; ma=86400
+{
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+
+15:29:33.024 [main] DEBUG com.intuit.karate - request:
+2 > PUT https://jsonplaceholder.typicode.com/posts/1
+2 > Content-Type: application/json; charset=UTF-8
+2 > Content-Length: 213
+2 > Host: jsonplaceholder.typicode.com
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.14 (Java/24.0.1)
+2 > Accept-Encoding: gzip,deflate
+{"userId":1,"id":1,"title":"nuevo titulo","body":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"}
+
+15:29:33.361 [main] DEBUG com.intuit.karate - response time in milliseconds: 334
+2 < 200
+2 < Date: Sun, 22 Jun 2025 20:29:35 GMT
+2 < Content-Type: application/json; charset=utf-8
+2 < Transfer-Encoding: chunked
+2 < Connection: keep-alive
+2 < Access-Control-Allow-Credentials: true
+2 < Cache-Control: no-cache
+2 < Etag: W/"e6-exRtpKB0Li+/kEQ0NXSGjtn5jTE"
+2 < Expires: -1
+2 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+2 < Pragma: no-cache
+2 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=j2qcVved3q2tfVqPUsQ4gzBPE%2BpakJgYgRdL6ddBdso%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1750624175"}],"max_age":3600}
+2 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=j2qcVved3q2tfVqPUsQ4gzBPE%2BpakJgYgRdL6ddBdso%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1750624175"
+2 < Vary: Origin, Accept-Encoding
+2 < Via: 2.0 heroku-router
+2 < X-Content-Type-Options: nosniff
+2 < X-Powered-By: Express
+2 < X-Ratelimit-Limit: 1000
+2 < X-Ratelimit-Remaining: 999
+2 < X-Ratelimit-Reset: 1750624226
+2 < Cf-Cache-Status: DYNAMIC
+2 < Server: cloudflare
+2 < Cf-Ray: 953e7fa8fe0b4988-MIA
+2 < alt-svc: h3=":443"; ma=86400
+2 < server-timing: cfL4;desc="?proto=TCP&rtt=61563&min_rtt=60503&rtt_var=24808&sent=4&recv=6&lost=0&retrans=0&sent_bytes=219&recv_bytes=1291&delivery_rate=20874&cwnd=251&unsent_bytes=0&cid=9747dbe631f48a73&ts=176&x=0"
+{
+  "userId": 1,
+  "id": 1,
+  "title": "nuevo titulo",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+
