@@ -1,4 +1,4 @@
-Feature: Simular flujo de autenticación básica con validaciones
+Feature: Simular flujo de autenticación básica
 
   Background:
     * url 'https://httpbin.org'
